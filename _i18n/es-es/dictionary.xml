@@ -210,7 +210,6 @@
   <block id="f42562a6ae551c35216254ce200afcc8" category="cell">Fuente de gancho</block>
   <block id="fba14cda608976c44a49d623666f37c7" category="cell">Los recursos de origen de enlace representan el código fuente real utilizado con un enlace de ejecución. Separar el código fuente del control de ejecución tiene varias ventajas, como permitir que se compartan las secuencias de comandos.</block>
   <block id="f156c7862a93e81ca10ba4bc4349824d" category="cell">Grupo LDAP</block>
-  <block id="dc488877c36bb584e674e32f8b4e1de4" category="cell">*22,11*</block>
   <block id="8a958fceac1f74e78832d8498767ce1f" category="cell">Puede enumerar los grupos dentro del servidor LDAP configurado. El acceso a los grupos LDAP es de solo lectura.</block>
   <block id="30b31a74662fc368bd562efd0f43adc2" category="cell">Usuario LDAP</block>
   <block id="0d0a6d61fee1311a1ba8a542e2bb5623" category="cell">Puede enumerar los usuarios dentro del servidor LDAP configurado. El acceso a los usuarios LDAP es de solo lectura.</block>
@@ -1246,4 +1245,9 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">Versiones anteriores</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="sidebar">Referencia de API</block>
+  <block id="c4340906de504057557c6bb8611b0ab5" category="cell">22,11</block>
+  <block id="ed5dea09095f671b801bee34ea28a319" category="cell">Permiso</block>
+  <block id="5a31da03b445627c9d11d99efb7cc803" category="cell">23,06</block>
+  <block id="22a15af82a20adf60996d549baa48d24" category="cell">Los recursos de permisos representan los permisos relacionados con las operaciones dentro del sistema. La API ofrece acceso de solo lectura a los permisos.</block>
+  <block id="8fe5430b97accfa7b33d3c5887f90718" category="cell">Los recursos de rol representan roles disponibles en el sistema. La API ofrece acceso de solo lectura a los roles.</block>
 </blocks>
