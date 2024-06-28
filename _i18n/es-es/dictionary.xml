@@ -756,7 +756,6 @@
   <block id="2d49337d583eac8056d564e348f43744" category="list-text">Restaurar una aplicación es muy similar a la operación de clonado.</block>
   <block id="af5cd1844721ca591969375d08152b0e" category="list-text">Al restaurar una aplicación, debe proporcionar una copia de seguridad o una instantánea.</block>
   <block id="b844ee2db8fd78557f753d0c04015c4a" category="summary">Astra Control es un producto de software de NetApp que proporciona gestión del ciclo de vida de los datos para sus aplicaciones de Kubernetes. Existen dos modelos de puesta en marcha disponibles en función de su entorno. Tanto Astra Control Center como Astra Control Service comparten la misma API de REST según la versión. Puede utilizar la API DE REST y otras tecnologías de automatización relacionadas para gestionar sus puestas en marcha de Astra Control.</block>
-  <block id="1a0ca7f0a5aea880c24d544b4655d6ed" category="doc">Documentación de Astra Control Automation</block>
   <block id="a5f871c981a398cb87374a1ff883bcca" category="summary">Puede utilizar la siguiente secuencia de comandos para enumerar las aplicaciones de su cuenta Astra.</block>
   <block id="0dca49fc2e144253162b8cbd94b3b83c" category="admonition">Consulte <block ref="471a805638f43cfd34206d9398385425" category="inline-link-macro-rx"></block> Por ejemplo del archivo de entrada JSON requerido.</block>
   <block id="c30daace746a4b0fbccf1758ed0282eb" category="summary">Python es un lenguaje de desarrollo popular para la automatización del centro de datos. Antes de utilizar las características nativas de Python junto con varios paquetes comunes, debe preparar el entorno y los archivos de entrada necesarios.</block>
@@ -1250,4 +1249,5 @@
   <block id="5a31da03b445627c9d11d99efb7cc803" category="cell">23,06</block>
   <block id="22a15af82a20adf60996d549baa48d24" category="cell">Los recursos de permisos representan los permisos relacionados con las operaciones dentro del sistema. La API ofrece acceso de solo lectura a los permisos.</block>
   <block id="8fe5430b97accfa7b33d3c5887f90718" category="cell">Los recursos de rol representan roles disponibles en el sistema. La API ofrece acceso de solo lectura a los roles.</block>
+  <block id="319cbcbe823e54bc4431c0aeca14c9d6" category="sidebar">Documentación de Astra Control Automation 23,07</block>
 </blocks>
