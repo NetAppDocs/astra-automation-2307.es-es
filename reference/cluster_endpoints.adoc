@@ -1,0 +1,12 @@
+---
+sidebar: sidebar 
+api: true 
+explorer: false 
+permalink: reference/cluster_endpoints.html 
+summary: 'Puntos finales del clúster de la API de Astra (ACS)' 
+---
+= Puntos finales del clúster de la API de Astra (ACS)
+:allow-uri-read: 
+
+
+La API de clúster representa clústeres de Kubernetes no gestionados.

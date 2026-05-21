@@ -1,0 +1,12 @@
+---
+sidebar: sidebar 
+api: true 
+explorer: false 
+permalink: reference/certificate_endpoints.html 
+summary: 'Puntos finales del certificado Astra API (ACS)' 
+---
+= Puntos finales del certificado Astra API (ACS)
+:allow-uri-read: 
+
+
+La API de Certificate App representa certificados en los que confía el administrador y que se utilizan para establecer conexiones salientes.
