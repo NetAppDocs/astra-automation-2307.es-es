@@ -18,6 +18,7 @@ Puede enumerar los bloques de S3 definidos para una cuenta de Astra específica.
 
 
 
+[[1-list-the-buckets]]
 === 1. Enumere los cucharones
 
 Realice la siguiente llamada a la API de REST para enumerar los bloques.

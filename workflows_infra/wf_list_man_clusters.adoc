@@ -18,6 +18,7 @@ Puede enumerar los clústeres de Kubernetes que gestiona actualmente Astra.
 
 
 
+[[1-list-the-managed-clusters]]
 === 1. Enumere los clústeres administrados
 
 Realice la siguiente llamada de API de REST.

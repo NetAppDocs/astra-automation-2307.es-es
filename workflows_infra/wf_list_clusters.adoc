@@ -18,12 +18,14 @@ Puede mostrar los clústeres disponibles en un cloud específico.
 
 
 
+[[1-select-the-cloud]]
 === 1. Seleccione la nube
 
 Realice el flujo de trabajo link:../workflows_infra/wf_list_clouds.html["Enumerar las nubes"] y seleccione el cloud que contiene los clústeres.
 
 
 
+[[2-list-the-clusters]]
 === 2. Enumere los clusters
 
 Realice la siguiente llamada de API DE REST para enumerar los clústeres en un cloud específico.

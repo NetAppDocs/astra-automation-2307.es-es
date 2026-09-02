@@ -7,6 +7,7 @@ summary: 'Puntos finales de copia de seguridad de la aplicación Astra API (ACS)
 ---
 = Puntos finales de copia de seguridad de la aplicación Astra API (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 La API de copia de seguridad de aplicaciones permite a un usuario crear y ver copias de seguridad de una aplicación gestionada.

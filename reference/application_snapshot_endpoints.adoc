@@ -7,6 +7,7 @@ summary: 'Puntos finales de instantáneas de la aplicación Astra API (ACS)'
 ---
 = Puntos finales de instantáneas de la aplicación Astra API (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 La API de instantáneas de aplicaciones permite a un usuario crear y ver instantáneas de una aplicación gestionada.

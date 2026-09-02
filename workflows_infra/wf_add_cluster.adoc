@@ -21,12 +21,14 @@ NOTE: No es necesario añadir un clúster cuando se usa un servicio de Kubernete
 
 
 
+[[1-obtain-the-kubeconfig-file]]
 === 1. Obtenga el archivo kubeconfig
 
 Necesita obtener una copia del archivo *kubconfig* de su administrador o servicio de Kubernetes.
 
 
 
+[[2-prepare-the-kubeconfig-file]]
 === 2. Prepare el archivo kubeconfig
 
 Antes de utilizar el archivo *kubeconfig*, debe realizar las siguientes operaciones:
@@ -44,6 +46,7 @@ Aquí hay un ejemplo de la conversión del archivo kubeconfig de YAML a JSON y l
 
 
 
+[[3-select-the-cloud]]
 === 3. Seleccione el cloud
 
 Realice el flujo de trabajo link:../workflows_infra/wf_list_clouds.html["Enumerar las nubes"] y seleccione el cloud donde se añadirá el clúster.
@@ -53,6 +56,7 @@ NOTE: La única nube que puede seleccionar es la *nube privada*.
 
 
 
+[[4-create-a-credential]]
 === 4. Crear una credencial
 
 Realice la siguiente llamada a la API DE REST para crear una credencial mediante el archivo kubeconfig.
@@ -91,6 +95,7 @@ curl --location -i --request POST 'https://astra.netapp.io/accounts/<ACCOUNT_ID>
 ----
 
 
+[[5-add-the-cluster]]
 === 5. Añada el clúster
 
 Realice la siguiente llamada de API REST para añadir el clúster al cloud. El valor de `credentialID` El campo de entrada se obtiene de la llamada a la API DE REST en el paso anterior.

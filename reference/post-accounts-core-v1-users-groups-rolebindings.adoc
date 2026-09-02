@@ -7,6 +7,7 @@ summary: Crear un nuevo enlace de rol para un grupo asociado a un usuario
 ---
 = Crear un nuevo enlace de rol para un grupo asociado a un usuario
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/users/{user_id}/groups/{group_id}/roleBindings`#
@@ -15,6 +16,7 @@ Indica los valores deseados para el recurso API de vinculación de funciones que
 
 
 
+[[parameters]]
 == Parámetros
 
 [cols="5*"]
@@ -41,6 +43,7 @@ ID del recurso de grupo contenedor
 |===
 
 
+[[request-body]]
 == Cuerpo de la solicitud
 
 Indica los valores deseados para el recurso API de vinculación de funciones que se va a crear.
@@ -165,6 +168,7 @@ Metadatos especificados por el cliente y el servicio asociados al recurso. Los v
 ====
 
 
+[[response]]
 == Respuesta
 
 [source]
@@ -316,6 +320,7 @@ Metadatos especificados por el cliente y el servicio asociados al recurso. Los v
 ====
 
 
+[[response]]
 == Respuesta
 
 [source]
@@ -361,6 +366,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == Respuesta
 
 [source]
@@ -411,6 +417,7 @@ Lista de campos no válidos en el cuerpo de la solicitud
 ====
 
 
+[[response]]
 == Respuesta
 
 [source]
@@ -461,6 +468,7 @@ Lista de campos no válidos en el cuerpo de la solicitud
 ====
 
 
+[[response]]
 == Respuesta
 
 [source]
@@ -506,6 +514,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == Error
 
 [source]
@@ -551,11 +560,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == Definiciones
 
 .Ver definiciones
 [%collapsible]
 ====
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 etiqueta_tipo_astra
 
@@ -571,6 +582,7 @@ etiqueta_tipo_astra
 | valor | cadena | Verdadero  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadatos_update
 
@@ -603,6 +615,7 @@ Metadatos especificados por el cliente y el servicio asociados al recurso. Los v
 | modifiedBy | cadena | Falso  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
@@ -620,6 +633,7 @@ Nombre del parámetro de consulta no válido
 Razón por la que el parámetro de consulta no es válido
 
 |===
+[[invalidFields]]
 [role="api-collapsible-fifth-title"]
 invalidFields
 

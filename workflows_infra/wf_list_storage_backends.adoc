@@ -18,6 +18,7 @@ Es posible enumerar los back-ends de almacenamiento disponibles.
 
 
 
+[[1-list-the-backends]]
 === 1. Enumere los back-ends
 
 Realice la siguiente llamada de API de REST.

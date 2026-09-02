@@ -18,6 +18,7 @@ Puede enumerar las notificaciones de una cuenta Astra específica. Esto se puede
 
 
 
+[[1-list-the-notifications]]
 === 1. Enumere las notificaciones
 
 Realice la siguiente llamada de API de REST.

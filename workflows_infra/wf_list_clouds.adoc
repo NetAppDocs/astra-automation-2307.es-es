@@ -18,6 +18,7 @@ Puede enumerar las nubes definidas y disponibles una cuenta de Astra específica
 
 
 
+[[1-list-the-clouds]]
 === 1. Enumere las nubes
 
 Realice las siguientes llamadas a la API DE REST para enumerar las nubes.

@@ -18,12 +18,14 @@ Es posible crear un backup para una aplicación específica y luego usar el back
 
 
 
+[[before-you-begin]]
 === Antes de empezar
 
 Debe tener el ID de la aplicación de la que desea realizar la copia de seguridad. Si es necesario, puede usar el flujo de trabajo link:wf_list_man_apps.html["Enumere las aplicaciones"] para localizar la aplicación.
 
 
 
+[[1-create-a-backup]]
 === 1. Cree una copia de seguridad
 
 Realice la siguiente llamada de API de REST.

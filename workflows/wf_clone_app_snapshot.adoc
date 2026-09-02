@@ -18,6 +18,7 @@ Puede crear una nueva aplicación clonándola desde una instantánea.
 
 
 
+[[before-you-begin]]
 === Antes de empezar
 
 Tenga en cuenta lo siguiente acerca de este flujo de trabajo:
@@ -31,18 +32,21 @@ NOTE: Para clonar una aplicación en un clúster diferente, debe actualizar el `
 
 
 
+[[1-select-the-app-to-clone]]
 === 1. Seleccione la aplicación que desea clonar
 
 Realice el flujo de trabajo link:wf_list_man_apps.html["Enumere las aplicaciones"] y seleccione la aplicación que desea clonar. Se necesitan varios valores de recursos para la llamada DE REST utilizada para clonar la aplicación.
 
 
 
+[[2-select-the-snapshot-to-use]]
 === 2. Seleccione la instantánea que desea utilizar
 
 Realice el flujo de trabajo link:wf_list_snapshots.html["Enumere las instantáneas"] y seleccione la copia de snapshot que desea usar.
 
 
 
+[[3-clone-the-app]]
 === 3. Clone la aplicación
 
 Realice la siguiente llamada de API de REST.

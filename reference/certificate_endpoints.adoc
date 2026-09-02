@@ -7,6 +7,7 @@ summary: 'Puntos finales del certificado Astra API (ACS)'
 ---
 = Puntos finales del certificado Astra API (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 La API de Certificate App representa certificados en los que confía el administrador y que se utilizan para establecer conexiones salientes.

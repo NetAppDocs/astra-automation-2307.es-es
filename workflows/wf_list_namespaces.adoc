@@ -18,6 +18,7 @@ Puede enumerar los espacios de nombres disponibles.
 
 
 
+[[1-list-the-namespaces]]
 === 1. Enumere los espacios de nombres
 
 Realice la siguiente llamada a la API de REST para enumerar los espacios de nombres.
